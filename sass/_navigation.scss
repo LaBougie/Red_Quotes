@@ -130,3 +130,39 @@ a {
 		width: 50%;
 	}
 }
+
+
+.site-info { 
+	url {
+		display: flex;
+		flex-flow: row wrap;
+		flex-wrap: wrap;
+		list-style-type: none;
+		margin-top: 5rem;
+
+		li {
+			border-right: 1px solid #fff;
+			line-height: 1rem;
+			padding: 0 1rem;
+			}
+			li:nth-of-type(4) {
+				border: none;
+			}
+
+			a {
+				text-decoration: none;
+			}
+		}
+	}
+@include desktop {
+	.site-info {
+		display: flex;
+		flex-flow: row wrap;
+		flex-wrap: wrap;
+		list-style-type: none;
+		margin-top: flex-end;
+	}
+
+}
+
+
