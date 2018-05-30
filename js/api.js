@@ -1,6 +1,6 @@
 
     // In api.js file
-    
+
     (function ($) {
 
       $('#new-quote-button').on('click', function (e) {

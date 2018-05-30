@@ -17,14 +17,13 @@ input[type="submit"] {
 	padding: .75rem 2.25rem;
 	margin-top: 1rem;
 
-    &:hover,
-    &:active,
-    &:focus {
-	border-color: $color__link-hover;
-	color: $color__link-hover;
+	&:hover,
+	&:active,
+	&:focus {
+		border-color: $color__link-hover;
+		color: $color__link-hover;
+	}
 }
-}
-
 
 /* Fields */
 
@@ -34,12 +33,16 @@ input[type="url"],
 input[type="password"],
 input[type="search"],
 textarea {
-	color: #666;
-	border: 1px solid #ccc;
+	background-color: $color__background-body;
+	border: 2px solid $color__brand-green;
 	border-radius: 3px;
+	color: $color__brand-green;
+	margin-top: 0.3rem;
+	margin-bottom: 1.3rem;
+	width: 60%;
 
 	&:focus {
-		color: #111;
+		color: $color__background-hr;
 	}
 }
 
